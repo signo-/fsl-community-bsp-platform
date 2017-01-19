@@ -7,18 +7,18 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
 
-  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="master" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="5c2c17d076a8d5f94dc04e6840c7f0e4a6bee81c" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="4d18c54ff86994345d80bae37ea3539a65bb2be0" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="def2483db69afdf8799b86ac0234a9ba52e8debf" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="master" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="0b9b4db05ec6a5d96f3a6292f6c94aa963238b11" name="fsl-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="master" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="master" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="master" name="Documentation" path="sources/Documentation"/>
+  <project remote="freescale" revision="b9ebd0797ef365bf904d6d41da17dca029915c55" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="ae27e8a8a068b960d6c1219f50b2e8ccc97f0bea" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="9628be5d37395d6bc457afb76ad2fb8896942973" name="Documentation" path="sources/Documentation"/>
 
 </manifest>
